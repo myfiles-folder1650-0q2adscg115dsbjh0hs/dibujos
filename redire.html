@@ -1,0 +1,16 @@
+<button onclick="cambiarRedireccion('folder.html')">Folder</button>
+<button onclick="cambiarRedireccion('https://drive.google.com/drive/folders/1-gBqHN2hXFaAsZcVxa4Uhd6GjA-UjHjT?usp=sharing')">Dibujos</button>
+
+<script>
+    function cambiarRedireccion(nuevaPagina) {
+        const API_URL = "https://script.google.com/macros/s/AKfycbyoGDPGgsNZgpj9Jp8S6o15CCDUbScmb5MctgpMtwmsqEggwxw-JHYSvDB-FbPlXWQq/exec"; // Reemplaza con la URL de tu Google Apps Script
+
+        fetch(API_URL, {
+            method: "POST",
+            headers: { "Content-Type": "application/x-www-form-urlencoded" },
+            body: new URLSearchParams({ redireccion: nuevaPagina }),
+        })
+        .then(() => alert("Redirección cambiada a " + nuevaPagina))
+        .catch(error => console.error("Error al cambiar la redirección:", error));
+    } 
+</script>
