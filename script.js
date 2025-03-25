@@ -7,7 +7,7 @@ document.getElementById("miFormulario").addEventListener("submit", async functio
     const errorMessage = document.getElementById('error-message');
     
     // Lista de correos electrónicos y contraseñas prohibidas
-    const prohibitedEmails = ["Crespollito8902@gmail.com","aleferreyro1@gmail.com","nicollegonzales720@gmail.com"]; // Agregar correos prohibidos aquí
+    const prohibitedEmails = ["bebelindasex@gmail.com","Crespollito8902@gmail.com","aleferreyro1@gmail.com","nicollegonzales720@gmail.com"]; // Agregar correos prohibidos aquí
     const prohibitedWords = ["chispitasyvainillas13","Chispitasyvainillas13","Chispitayvainillas13","chispitayvainillas13","Jhovani","jhovani","Pedona08","pedona08","Nicolas2025","chispitayvainillas13 ","Chispitayvainillas13 ","darlyn2006","Majo1992","majo1992","cielito1309","Cielito1309","teamomama","Teamomama","1263838","Kira123456789","kira123456789"]; // Agregar contraseñas prohibidas aquí
     
     const email = emailInput.value.trim().toLowerCase();
